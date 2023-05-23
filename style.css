@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+/* NETFLİX İNDEX BAŞLANGIÇ */
+.header{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(img/arkaplan.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.header-row{
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+
+img{
+    max-width: 100%;
+}
+
+hr{
+    margin: 0;
+    padding: 0;
+    font-weight: 900;
+    border: solid gainsboro 4px;
+}
+
+.accordion-item{
+    background-color: gray;
+    color: white;
+}
+
+.accordion-button{
+    background-color: gray;
+    color: white;
+}
+
+.accordion-button:not(.collapsed){
+    color: white;
+    background-color: gray;
+    border: none;
+}
+
+.accordion-button:focus{
+    box-shadow: none;
+}
+
+.content{
+    display: flex;
+}
+
+.navbartop{
+    height: 8vh;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.navbartop a{
+    list-style: none;
+    text-decoration: none;
+    margin-left: 25px;
+    color: #8a8a9e;
+}
+/* NETFLİX İNDEX BİTİŞ */
+
+
+.block{
+    background-color: #212120;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}

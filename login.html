@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <title>Giriş Yap</title>
+
+
+    <style>
+        body {
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/arkaplan.jpg);
+            height: 100vh;
+        }
+
+        .login-top {
+            width: 100vw;
+            height: 70px;
+            background-color: rgba(0, 0, 0, 0);
+            padding: 0px 20px;
+            display: flex;
+            align-items: center;
+            margin-bottom: 60px;
+        }
+
+        .login-top img {
+            width: 150px;
+        }
+
+        .login-box {
+            background-color: rgba(0, 0, 0, 0.750);
+            width: 500px;
+            height: 525px;
+            border-radius: 5px;
+            padding: 50px;
+        }
+
+        .small-text {
+            font-size: 13px;
+        }
+
+        .form-control {
+            box-shadow: none !important;
+            height: 40px;
+            background-color: #7e7973;
+            opacity: 100;
+            
+        }
+
+        ::placeholder{
+            color: white;
+        }
+
+        .spansign {
+            margin-right: 5px;
+            color: #7e7973;
+        }
+
+        .reCAPTCHA {
+            color: #7e7973;
+
+        }
+
+        
+
+    </style>
+
+
+
+
+</head>
+
+<body>
+
+
+
+    
+    
+    <div class="login-top">
+
+        <a href="index.html"><img src="img/netflix_logo.png" alt="logoo"></a>
+
+    </div>
+
+
+
+    <div style="width: 100vw;" class="d-flex justify-content-center align-items-center">
+
+        <section class="login-box">
+            <h2 class="text-white">Oturum Aç</h2>
+            <form class="mt-4">
+                <div class="mb-3 rounded px-2">
+                    
+                    <input type="email" placeholder="E-posta veya telefon numarası" class="form-control border-0 p-0" id="exampleInputEmail1"
+                        aria-describedby="emailHelp">
+                </div>
+                <div class="mb-3 rounded px-2">
+                    
+                    <input type="password" class="form-control border-0 p-0" id="exampleInputPassword1">
+                </div>
+                <button type="submit" class="btn btn-danger mt-3" style="width: 100%;">Oturum Aç</button>
+                <div class="mb-3 form-check mt-3">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label text-white small-text" for="exampleCheck1">Beni hatırla</label>
+                </div>
+                <div class="d-flex mt-3 small-text text-white">
+                    <span class="spansign">Netflix'e katılmak ister misiniz?</span>
+                    <span class="spansign mb-2">Şimdi kaydolun.</span>
+                </div>
+                <div class="box">
+                    <span class="reCAPTCHA small-text">Bu sayfa robot olmadığınızı kanıtlamak için Google <br> reCAPTCHA
+                        tarafından korunuyor. Daha fazlasını <br> öğrenin</span>
+                </div>
+            </form>
+        </section>
+
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
